@@ -129,6 +129,14 @@ h6 {
   color: #bb058d;
   
 }
+.dark-mode #footer .social-links a{
+  color: #bb058d;
+  background-color: #fff;
+}
+.dark-mode #navbar li a span{
+  color: #bb058d;
+  
+}
 .dark-mode #theme-toggle {
   color: #fff;
 }
@@ -142,6 +150,12 @@ h3,
 h4,
 h5{
   color: #080808;
+}
+.dark-mode .about .content h3 {
+  color: #fff;
+}
+.dark-mode .resume .resume-title {
+  color: #fff;
 }
 .dark-mode .services .icon-box p{
   color: #000000;
@@ -162,7 +176,7 @@ h5{
   background-color: #222;
 }
 .dark-mode #footer {
-  background-color: #584e4e;
+  background-color: #615e5e;
 }
 .dark-mode #footer .copyright {
   color: #eee;
@@ -170,7 +184,9 @@ h5{
 .dark-mode #footer p {
   color: #eee;
 }
-
+.dark-mode #footer h3 {
+  color: #eee;
+}
 
 /*--------------------------------------------------------------
 # Header
@@ -195,11 +211,7 @@ h5{
   }
 }
 
-@media (min-width: 991px) {
-  #main {
-    margin-left: 100px;
-  }
-}
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -504,6 +516,7 @@ section {
   grid-template-columns: repeat(auto-fit, minmax(177px, 1fr));
   grid-gap: 20px;
   margin: 20px;
+  
 }
 
 .skills .image-tile {
@@ -517,6 +530,7 @@ section {
   display: block;
   width: 100%;
   height: auto;
+  padding: 20px;
 }
 .skills h2 {
   margin: 10px;
@@ -1046,7 +1060,7 @@ section {
   height: 44px;
   
   background: #eef7ff;
-  display: inline-block;
+  
   justify-content: flex-start;
   align-items: center;
   border-radius: 50px;
@@ -1184,11 +1198,12 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #f7f8f9;
+  background: #d2d2d3;
   color: #45505b;
   font-size: 14px;
   text-align: center;
   padding: 30px 0;
+
 }
 
 #footer h3 {
@@ -1214,7 +1229,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #0563bb;
+  background: #bb058d;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1227,7 +1242,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #0678e3;
+  background: #bb058d;
   color: #fff;
   text-decoration: none;
 }
