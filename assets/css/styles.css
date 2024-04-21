@@ -826,6 +826,10 @@ section {
 .portfolio-details .portfolio-description p {
   padding: 0;
 }
+.portfolio .portfolio-wrap .img-fluid {
+  width: 420px !important;
+  height: 220px !important;
+}
 
 /*--------------------------------------------------------------
 # Services
